@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container{
+
+background-color:#f5e6ff;
+    
+}
+
+.main-heading{
+    background-color: lightcoral;
+    text-align: center;
+    color:white;
+    height: 50px;
+    padding-top: 20px;
+    font-size:xx-large;
+}
+
+.container h1{
+    
+       font-family: 'Ubuntu', sans-serif;
+    
+}
+.titleimage{
+    
+    display: block;
+    margin: auto;
+
+}
+
+.box p{
+    color: rgb(0, 0, 0);
+
+font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.1vw;
+    font-size:2vw;
+}
+
+
+.box{
+
+    margin: 1vw;
+
+
+   padding: 4% 3% 6% 1%;
+
+
+    border:0.45vw solid  #d699ff;
+  
+
+    border-radius: 10px;
+    height: auto;
+
+
+}
+
+h1{
+  color:#6b00b3;
+    font-size:150%;
+}
+
+
+.box img{
+   
+   
+    border: 0.4vh solid rgb(255, 255, 255);
+
+    outline:0.7vh solid rgba(119, 0, 255, 0.623);
+    border-radius: 5px;
+
+   max-height:7vw ;
+   margin-left:2vw;
+    margin-right: 2vh;
+}
+
+#image1{
+    float:left;
+}
+
+#image2{
+    float:right;
+}
+#image3{
+    float:left;
+}
+#image4{
+    float:right;
+}
+#image5{
+    float:left;
+}
+#image6{
+    float:right;
+}
+
+#image7{
+    float:left;
+}
+#image8{
+    float:right;
+}
+#image9{
+    float:left;
+}
+
+
+@media screen and (max-width:600px){
+
+    .titleimage{
+    
+        display: block;
+        margin: auto;
+       width:100%;
+        
+      
+    }
+    
+    .box image{
+        
+        outline:0.1vh solid black;
+    border-radius: 3vh;
+    }
+    .container h1{
+      color:6b00b3;
+        font-size: 2.5vw;
+    }
+    .box p{
+      
+        
+      letter-spacing: 0.1vw;
+    font-size:2vh;
+    }
+    
+}
+
+.foot p{
+     background-color: rgba(169, 93, 255, 0.609);
+    text-align: center;
+    color:black;
+    font-size: 2vh;
+}
